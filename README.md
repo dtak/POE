@@ -1,4 +1,4 @@
-# Optimizing for Interpretability Properties
+# Transparent Trade-offs between Properties of Explanations
 
 
 ## Instructions
