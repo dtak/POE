@@ -2,12 +2,12 @@
 
 
 ## Instructions
-* Please refer to Transductive to run Transductive Experiments 
-* Please refer to Inductive to run Inductive Experiments 
+* Please refer to Source_Transductive to run Transductive Experiments 
+* Please refer to Source_Inductive to run Inductive Experiments 
 
 **Run experiments in Transductive Setting:**
 * Execute:
-  * `cd auto`
+  * `cd POE/Source_Transductive/auto`
   * `make`
 * Then it will start writing the results into a directory called `output`
 * Under output, every method has its own subdirectory e.g smoothgrad, lime, etc. 
