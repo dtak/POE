@@ -7,7 +7,7 @@
 
 **Run experiments in Transductive Setting:**
 * Execute:
-  * `cd POE/Source_Transductive/auto`
+  * `cd POE/Source_Transductive/`
   * `make`
 * Then it will start writing the results into a directory called `output`
 * Under output, every method has its own subdirectory e.g smoothgrad, lime, etc. 
