@@ -572,7 +572,7 @@ def compute_robustness_loss_cv(W_E, kernel_matrix):
             squared_norm = cp.sum((W_E[i] - W_E[j]) ** 2)
 
 
-            weighted_norm = squared_norm  #* kernel_matrix[i, j]
+            weighted_norm = squared_norm  * kernel_matrix[i, j]
 
             summation += weighted_norm
 
